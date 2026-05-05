@@ -256,3 +256,48 @@ nav a::after {
 nav a:hover::after {
   width: 100%;
 }
+
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* HERO */
+  .hero {
+    height: auto;
+    padding: 80px 20px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  /* SECTION */
+  .section {
+    padding: 50px 20px;
+  }
+
+  /* GALLERY */
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* ACTIVITIES */
+  .activity-images {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* CONTACT */
+  .contact-box {
+    font-size: 14px;
+  }
+}
