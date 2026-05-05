@@ -350,9 +350,11 @@ footer {
 
     /* penting: bikin link bisa wrap */
     .contact-box a {
-    display: inline-block;
-    max-width: 100%;
-    word-break: break-word;
+    display: block;
+    margin-top: 4px;
+    text-align: center;
+
+    word-break: break-all;       /* ini kuncinya 🔥 */
     overflow-wrap: anywhere;
     }
 }
