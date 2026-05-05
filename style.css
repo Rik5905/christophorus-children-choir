@@ -331,8 +331,28 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
 
-  /* CONTACT */
-  .contact-box {
-    font-size: 14px;
-  }
+    /* =========================
+    CONTACT
+    ========================= */
+    #contact p {
+    text-align: center;
+    }
+
+    /* FIX OVERFLOW TEXT (WA, EMAIL, IG) */
+    .contact-box {
+    padding: 0 15px;
+    }
+
+    .contact-box p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    }
+
+    /* penting: bikin link bisa wrap */
+    .contact-box a {
+    display: inline-block;
+    max-width: 100%;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    }
 }
