@@ -194,6 +194,12 @@ nav a:hover {
   text-align: center;
 }
 
+.activity-list {
+  display: grid;
+  gap: 40px; /* sebelumnya mungkin 20px */
+  margin-top: 20px;
+}
+
 .activity-images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
